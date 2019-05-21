@@ -19,7 +19,7 @@ export default class PropertyMap extends LightningElement {
     handlePropertySelected(property) {
 
         this.mapMarkers=[
-            {
+            { 
                 location: {
                     Street:property.mahesh_space__Address__c,
                     City: property.mahesh_space__City__c,
